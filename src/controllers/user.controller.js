@@ -43,7 +43,25 @@ const registerUser = asyncHandler( async (req, res) => {
     }
 
     // create user object and create entry in DB
-    
+    const user = await User.create({
+        fullName,
+        avatar: avatar.url,
+        coverImage: coverImage?.url || "",
+        email,
+        password,
+        username: username.toLowerCase()
+    })
+
+    // removing password & refreshToken field from response before giving response back to user
+    const createdUser = await User.findById(user._id).select(
+        "-password -refreshToken"
+    )
+
+    // checking for user creation
+    if (!createdUser) {
+        throw new ApiError(500, "Something went wrong while registering the user")
+    } 
+
 
 })
 
