@@ -49,6 +49,9 @@ router
     updateUserCoverImage
     )
 
+router.route("/c/:username").get(verifyJWT, getUserChannelProfile)
+router.route("/history").get(verifyJWT, getWatchHistory)
+
 
 
 // like this can be done
