@@ -1,8 +1,7 @@
 // require ('dotenv').config({path: './env'})
 import dotenv from "dotenv"
 
-// import mongoose from "mongoose";
-// import { DB_NAME } from "./constants";
+
 import connectDB from "./db/index.js";
 import {app} from './app.js'
 
@@ -50,17 +49,18 @@ connectDB()
 
 
 
-/*
-import express, { application }  from "express";
-const app = express()
 
+// import mongoose from "mongoose";
+// import { DB_NAME } from "./constants";
+
+/*
+import express from "express"
+const app = express()
 ( async () => {
     try {
-        await mongoose.connect(`${process.env.
-        MONGODB_URI}/${DB_NAME}`)
-
-        app.on("error", (error) => {
-            console.log("ERROR: ", error);
+        await mongoose.connect(`${process.env.MONGODB_URI}/${DB_NAME}`)
+        app.on("errror", (error) => {
+            console.log("ERRR: ", error);
             throw error
         })
 
@@ -73,4 +73,5 @@ const app = express()
         throw err
     }
 })()
+
 */
