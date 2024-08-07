@@ -50,3 +50,86 @@ JSON Web Tokens for secure user authentication and authorization.
 ![Dotenv](https://img.shields.io/badge/dotenv-%23000.svg?style=for-the-badge&logo=dotenv&logoColor=white)
 For managing environment variables.
 
+
+
+
+## Instructions
+
+### Cloning the Repository
+
+To clone the repository, use the following command:
+
+```bash
+git clone https://github.com/Ramavtar-Nagar/Youtube-clone-backend.git
+```
+
+### Installing Dependencies
+
+Navigate to the project directory and run the following command to install the necessary dependencies:
+
+```bash
+npm install
+```
+
+### Setting Up Environment Variables
+
+Create a .env file in the root directory of the project and add your environment variables. Example:
+
+```bash
+PORT=5000
+MONGO_URI=mongodb://localhost:27017/your-database
+JWT_SECRET=your_jwt_secret
+```
+
+### Running the Server
+
+To start the server in development mode, use the following command:
+
+```bash
+npm start
+```
+
+### Running Tests
+
+To run tests, use the following command:
+
+```bash
+npm test
+```
+
+### Building for Production
+
+To build the project for production, use the following command:
+
+```bash
+npm run build
+```
+
+
+## Learn More
+
+You can learn more about the technologies used and best practices in the following resources:
+
+- [MongoDB Aggregation Pipeline Documentation](https://docs.mongodb.com/manual/aggregation/)
+- [JWT Documentation](https://jwt.io/)
+- [Multer Documentation](https://www.npmjs.com/package/multer)
+- [Express Middleware Documentation](https://expressjs.com/en/guide/using-middleware.html)
+- [CORS Documentation](https://www.npmjs.com/package/cors)
+- [Dotenv Documentation](https://www.npmjs.com/package/dotenv)
+
+## Deployment
+
+The project is not currently deployed. To deploy it, you can use platforms like Heroku, AWS, or DigitalOcean, and follow their respective deployment guides.
+
+## E-mail Address
+
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ramavtarnagar13@gmail.com)
+[ramavtarnagar13@gmail.com](mailto:ramavtarnagar13@gmail.com)
+
+## 🔗 My Socials
+
+![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)
+[LinkedIn](https://www.linkedin.com/in/ramavtar-nagar-a942a4216?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+
+![X](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)
+[X](https://x.com/Ramavta60509861?t=7nTCY6zozQfNJs5uYGFyTQ&s=09)
